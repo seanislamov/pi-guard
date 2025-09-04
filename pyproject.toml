@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pi-guard"
+version = "0.1.0"
+description = "Minimal prompt injection detector (Python)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+authors = [{ name = "pi-guard" }]
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["pi_guard"]
+package-dir = {"" = "python"}
